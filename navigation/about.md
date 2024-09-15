@@ -7,6 +7,13 @@ permalink: /about/
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 <h2 class="subtitle">About Me</h2>
 <p class="para">My name is Nikhil Maturi, and I am a student at Del Norte High School in San Diego, California. I am currently apart of AP Computer Science Principles. I enjoy playing sports, spending time with friends and family, and watching movies.</p>
+
+<div id="sub-menu">
+  <a href="https://www.budgetbytes.com/category/recipes/pasta/">Pasta</a>
+  <a href="https://www.nba.com/warriors/">Basketball</a>
+  <a href="https://www.python.org/">Programming</a>
+</div>
+
 <h2 class="subtitle">Do you share my interests?</h2>
 <p class="para">Click on the basketball!</p>
 <div class="interests">
