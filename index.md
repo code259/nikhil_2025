@@ -22,18 +22,18 @@ hide: true
 <h3 id="counter">Counter:</h3>
 <h3 id="rate">Cookie Rate:</h3>
 <h3 id="grandma-list">Grandma Army: </h3>
+<br>
 <div>
   <button onclick="grandmaPress()" id="grandma-btn">Grandma Power</button>
 </div>
+<br>
 
 <h2>Other</h2>
 <!--- HTML for page contains <p> tag named "Mario" and class properties for a "sprite"  -->
 
 <p id="mario" class="sprite"></p>
-  
-<!--- Embedded Cascading Style Sheet (CSS) rules,
-        define how HTML elements look
---->
+
+
 <style>
 
   /*CSS style rules for the id and class of the sprite...
@@ -51,6 +51,7 @@ hide: true
     background-position: calc({{animations[0].col}} * {{pixels}} * -1px) calc({{animations[0].row}} * {{pixels}}* -1px);
   }
 </style>
+
 
 <script>
   // counter_value = 0;
