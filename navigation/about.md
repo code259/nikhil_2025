@@ -63,6 +63,14 @@ permalink: /about/
     <!-- content will be added here by JavaScript -->
 </div>
 
+<script src="https://utteranc.es/client.js"
+        repo="code259/nikhil_2025"
+        issue-term="pathname"
+        theme="icy-dark"
+        crossorigin="anonymous"
+        async>
+</script>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 <script>
@@ -150,7 +158,7 @@ permalink: /about/
     }
     .para {
       font-size: 20px;
-      color: white;
+      /* color: black; */
     }
     .grid-container {
       display: grid;
