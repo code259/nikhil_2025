@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 
 $header-bg-color: #d4803b;
+$header-bg-color-secondary: #479bd8;
 
 @mixin large {
   @media screen and (min-width: #{$large-breakpoint}) {
