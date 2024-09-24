@@ -122,16 +122,16 @@ permalink: /ideas/
         // Handle keydown events
         function onKeyDown(event) {
             switch (event.key) {
-                case 'W':
+                case 'w':
                     direction.y = -ballSpeed; // Move forward
                     break;
-                case 'S':
+                case 's':
                     direction.y = ballSpeed; // Move backward
                     break;
-                case 'ArrowA':
+                case 'a':
                     direction.x = -ballSpeed; // Move left
                     break;
-                case 'ArrowD':
+                case 'd':
                     direction.x = ballSpeed; // Move right
                     break;
             }
@@ -140,12 +140,12 @@ permalink: /ideas/
         // Handle keyup events (stop moving when key is released)
         function onKeyUp(event) {
             switch (event.key) {
-                case 'ArrowUp':
-                case 'ArrowDown':
+                case 'w':
+                case 's':
                     direction.y = 0; // Stop vertical movement
                     break;
-                case 'ArrowLeft':
-                case 'ArrowRight':
+                case 'a':
+                case 'd':
                     direction.x = 0; // Stop horizontal movement
                     break;
             }
