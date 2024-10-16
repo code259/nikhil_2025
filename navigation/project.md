@@ -7,7 +7,7 @@ permalink: /project/
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 <h1>Expense Tracker</h1>
-<a href="{{site.baseurl}}/2024/10/15/lesson-summary_IPYNB_2_.html">Overview</a>
+<a href="{{site.baseurl}}/2024/10/15/lesson-summary_IPYNB_2_.html">All Blogs and Overview</a>
 <form id="expense-form">
     <label for="item">Item:</label>
     <input id="item" type="text" placeholder="Enter Item:"><br>
