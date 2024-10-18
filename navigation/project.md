@@ -74,6 +74,7 @@ permalink: /project/
     window.onload = function() {
         displayExpenses();
         updateChart();
+        console.log(expenses);
     }
 
     function clearExpenses() {
